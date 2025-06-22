@@ -1,8 +1,8 @@
-const BASE_URL = "https://majorproject-backend-mxfx.onrender.com/";
+const BASE_URL = "https://majorproject-backend-mxfx.onrender.com/api/v1";
 
 // AUTH ENDPOINTS
 export const endpoints = {
-  SENDOTP_API: "http://localhost:5000/api/v1/auth/sendotp",
+  SENDOTP_API: "https://majorproject-backend-mxfx.onrender.com/api/v1/auth/sendotp",
   SIGNUP_API: BASE_URL + "/auth/signup",
   LOGIN_API: BASE_URL + "/auth/login",
   RESETPASSTOKEN_API: BASE_URL + "/auth/reset-password-token",
